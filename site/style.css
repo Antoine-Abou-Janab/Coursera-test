@@ -15,11 +15,11 @@
 		color: darkred;
 	}
 	h1{
-		background-color: burlywood;
+		background-color: silver;
 		color:blue;
 		font-size: 40px;
 		display: block;
-		width: 800px;
+		width: 8em;
 		border: 2px solid lightgreen;
 		text-align: center;
 		shape-rendering: geometricPrecision;
