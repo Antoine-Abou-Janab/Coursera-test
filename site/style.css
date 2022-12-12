@@ -28,13 +28,11 @@
 	}
 	 .beauty{
 		color: turquoise;
-		text-decoration: blink;
 
 	}
 	.heh:hover , .heh:active{
 		border-style: groove;
-		width: 252px;
-		height: 74px;
+		opacity: 0.5;
 
 	}
 	p{
