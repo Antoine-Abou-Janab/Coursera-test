@@ -1,0 +1,43 @@
+	.one:visited , .one:link {
+		text-decoration: none;
+		display: block;
+		width: 200px;
+		background-color: lightslategray;
+		color: greenyellow;
+		text-align: center;
+		border: 1px solid blue;
+
+
+
+	}
+	.one:active , .one:hover {
+		background-color: lightcyan;
+		color: darkred;
+	}
+	h1{
+		background-color: burlywood;
+		color:blue;
+		font-size: 40px;
+		display: block;
+		width: 800px;
+		border: 2px solid lightgreen;
+		text-align: center;
+		shape-rendering: geometricPrecision;
+
+
+	}
+	 .beauty{
+		color: turquoise;
+		text-decoration: blink;
+
+	}
+	.heh:hover , .heh:active{
+		border-style: groove;
+		width: 252px;
+		height: 74px;
+
+	}
+	p{
+		font-size: 28px;
+		text-decoration: underline;
+	}
