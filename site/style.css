@@ -1,50 +1,34 @@
-	.one:visited , .one:link {
-		text-decoration: none;
-		display: block;
-		width: 200px;
-		background-color: lightslategray;
-		color: greenyellow;
-		text-align: center;
-		border: 1px solid blue;
+h1 {
+	text-align: center;
+	display: inline-block;
+	width: 300px;
+	border: 1px solid yellow;
+	background-color: lightskyblue;
+}
 
-		
+body {
+	background-color: lightcyan;
+	overflow-y: scroll;
+}
 
-	}
-	.one:active , .one:hover {
-		background-color: lightcyan;
-		color: darkred;
-	}
-	h1{
-		background-color: silver;
-		color:blue;
-		font-size: 40px;
-		display: block;
-		width: 8em;
-		border: 2px solid lightgreen;
-		text-align: center;
-		shape-rendering: geometricPrecision;
+li {
+	list-style: none;
+}
 
+a:link, a:visited {
+	text-decoration: none;
+	background-color: cyan;
+	border: 1px solid rgb(28, 218, 193);
+	display: block;
+	width: 300px;
+	text-align: center;
+	margin-bottom: 3px;
+	
+}
 
-	}
-	 .beauty{
-		color: turquoise;
-
-
-	}
-	.heh:hover , .heh:active{
-		border-style: groove;
-		opacity: 1;
-
-	}
-	p{
-		font-size: 28px;
-		text-decoration: underline;
-	}
-@media (max-width :1200px){
-	p{
-		color:  darkviolet;
-
-	}
+a:hover, a:active {
+	background-color: lightslategrey;
+	color: black;
 }
 div.b {
 	background-color: #191919;
@@ -63,8 +47,6 @@ div#main {
 	border-radius: 10px;
 	background-color: #191919;
 	position: relative;
-	left: 200px;
-	top: 92px;
 	padding: 5px;
 }
 
@@ -79,10 +61,6 @@ div.w {
 	margin-right: 5px;
 }
 
-	div.w:hover {
-		opacity: 0.7;
-	}
-
 	div.w:active {
 		opacity: 0;
 	}
@@ -93,4 +71,7 @@ div.b:hover {
 
 div.b:active {
 	opacity: 0;
+}
+h1,ul,li,a{
+	border-radius: 10px;
 }
