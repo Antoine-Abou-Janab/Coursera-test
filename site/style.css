@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
 	text-align: center;
 	display: inline-block;
 	width: 300px;
@@ -74,4 +74,14 @@ div.b:active {
 }
 h1,ul,li,a{
 	border-radius: 10px;
+} */
+.row{
+
+	border: 2px solid black;
+	margin: 10px;
+}
+.col-md-4{
+	background-color: blue;
+	border: 2px solid black;
+	margin: 10px;
 }
