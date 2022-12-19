@@ -1,5 +1,5 @@
 body{
-    background-color: #B3A580;
+    background-color: #D2B08B;
 
 }
 header{
@@ -10,7 +10,37 @@ header{
     height: 100px;
     margin: 50px;
     border-radius: 20px;
-    padding-top: 54px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(238, 226, 210);
+}
+.main{
+    background-color: #E7CFB3;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 250px;
+    margin: 300px;
+    margin-top: 50px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+.inl{
+    height: 50px;
+    background-color: #AE8D6C;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 25px;
+    width: 25%;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom-right-radius: 15px;
 
 
+}
+img{
+    float: right;
+    border-radius: 20px;
 }

@@ -7,8 +7,9 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open assign.html",
-            "file": "${file}"
+            "name": "Launch Chrome against localhost",
+            "url": "${file}",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
